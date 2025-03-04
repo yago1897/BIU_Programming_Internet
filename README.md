@@ -3,7 +3,7 @@ Plataforma de Ventas Ecommerce es una solución integral para la compra y venta 
 Inicialmente se observa la vista del login donde de acuerdo al perfil del usuario puede acceder con sus credenciales 
 ![image](https://github.com/user-attachments/assets/7eca75aa-812e-4cdb-b9cc-967b26a38dd7)
 
-Se observa el diseño de la maqueta con los requerimientos que se solicitaron. Se puede observar el módulo Dashboard donde muestra el total de ingresos, las ventas realizadas y los productos vendidos como se aprecia en la imagen
+Se observa el diseño de la maqueta cumple con los requerimientos que se solicitaron. Se puede observar el módulo Dashboard donde muestra el total de ingresos, las ventas realizadas y los productos vendidos como se aprecia en la imagen
 ![image](https://github.com/user-attachments/assets/ec915a40-6bea-43d9-9a2c-b0eaed2ab230)
 
 Luego se selecciona el módulo de Productos con algunos de ellos ya registrados en base de datos sql server y se reflejan en la vista como se aprecia en la imagen
