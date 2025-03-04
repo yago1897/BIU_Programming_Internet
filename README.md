@@ -24,7 +24,8 @@ También cuenta con un módulo de reportes donde se puede realizar un reporte fi
 
 ![image](https://github.com/user-attachments/assets/2af0287f-ced6-4d3f-b416-8469649d33d0)
 
-Modo en que se realizó la plataforma Ecommerce: la maquetación fue realizada por Angular versión 15, en este caso ya está funcionando ya que está conectada a base de datos sql server y el backend realizado en la plataforma .Net.
+Modo en que se realizó la plataforma Ecommerce: la maquetación fue realizada por Angular versión 15, en este caso ya está funcionando ya que está conectada a base de datos sql server y el backend realizado en la plataforma .Net-Core
+
 La plataforma "Sistema de ventas Ecommerce" fue realizado bajo las especificaciones planteadas cuya maquetación cumpliera con lo solicitado, que era crear un proyecto front de libre albedrio que consumiera datos de una API. en este caso yo escojí angular 15 para el frontend y poder consumir un crud de datos realizado en ASP.NET-CORE, donde expongo 4 servicios API-REST-FULL "GET", "POST","PUT" y "DELETE". La aplicación está realizada bajo una arquitectura de N-capas, empleando un patron repositorio, empleando DTOS, validaciones de datos, autommaper, interfaces e inyección de dependencias, con buenas prácticas y principios solid.
 
 
