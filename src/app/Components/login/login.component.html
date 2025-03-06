@@ -12,8 +12,12 @@
 
                 <mat-form-field class="full-width" appearance="outline">
                     <mat-label>Email</mat-label>
-                    <input formControlName="email" matInput autocomplete="off">
+                    <input formControlName="email" matInput autocomplete="off" >
                     <mat-icon matSuffix>mail</mat-icon>
+                    <mat-error *ngIf="formularioLogin.get('email')?.invalid && formularioLogin.get('email')?.touched">
+                        <span *ngIf="formularioLogin.get('email')?.errors?.['required']">El email es obligatorio</span>
+                        <span *ngIf="formularioLogin.get('email')?.errors?.['email']">Formato incorrecto de email</span>
+                    </mat-error>
                 </mat-form-field>
 
                 <mat-form-field class="full-width" appearance="outline">
@@ -44,4 +48,5 @@
         </mat-card-footer>
 
     </mat-card>
+    
 </div>

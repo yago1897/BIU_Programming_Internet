@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
-import { FormBuilder,FormGroup,Validators } from '@angular/forms';
+import { FormBuilder,FormGroup,PatternValidator,Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { Login } from 'src/app/Interfaces/login';
 import { UsuarioService } from 'src/app/Services/usuario.service';
 import { UtilidadService } from 'src/app/Reutilizable/utilidad.service';
+
 
 @Component({
   selector: 'app-login',
@@ -24,7 +25,7 @@ export class LoginComponent implements OnInit {
     private _utilidadServicio: UtilidadService
   ) { 
     this.formularioLogin = this.fb.group({
-      email:['',Validators.required],
+      email:['',[Validators.required, Validators.email]],
       password:['',Validators.required]
     });
 
