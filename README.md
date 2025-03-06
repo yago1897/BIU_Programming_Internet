@@ -29,13 +29,14 @@ Modo en que se realizó la plataforma Ecommerce: la maquetación fue realizada p
 
 La plataforma "Sistema de ventas Ecommerce" fue realizado bajo las especificaciones planteadas cuya maquetación cumpliera con lo solicitado, que era crear un proyecto front de libre albedrio que consumiera datos de una API. en este caso yo escojí angular 15 para el frontend y poder consumir un crud de datos realizado en ASP.NET-CORE, donde expongo 4 servicios API-REST-FULL "GET", "POST","PUT" y "DELETE". La aplicación está realizada bajo una arquitectura de N-capas, empleando un patron repositorio, empleando DTOS, validaciones de datos, autommaper, interfaces e inyección de dependencias, con buenas prácticas y principios solid.
 
-Validador de formilario dinámico del lado cliente y validación de campos
+Tarea: Asignación No. 3 Desarrollo de un validador de formularios dinámico del lado del cliente, caso Registro de nuevo Usuario del Sistema
 
 Como se aprecia en la imágen los campos validan su obligatoriedad
 
 ![image](https://github.com/user-attachments/assets/528c2e6d-4ee1-4684-b9a8-13ac1f68319b)
 
 En este caso también valida que el formato del correo electrónico sea el formato correcto como se ve en la imágen
+
 ![image](https://github.com/user-attachments/assets/cdccb09f-a332-40d9-aeb9-b97d2a4f5e7c)
 
 En este caso ya se ingresa el email y contraseña normalmente para poder ingresar
@@ -57,6 +58,16 @@ De igual manera con el módulo "Ventas"
 De igual manera con el módulo de ventas
 
 ![image](https://github.com/user-attachments/assets/e484d03a-c03e-4c91-affe-114a74526fa8)
+
+Al realizar un ingreso de un usuario con rol de empleado, se llenan los datos como se muestra a continuación 
+
+![image](https://github.com/user-attachments/assets/71e11423-c130-4ff1-a72e-836346005860)
+
+Y se ovserva que se ingresa correctamente y mostrando un mensaje de alerta exitoso como se aprecia en la imágen
+
+![image](https://github.com/user-attachments/assets/f6485d89-f8fe-4a06-b374-4511d0d7d1ef)
+
+
 
 
 
