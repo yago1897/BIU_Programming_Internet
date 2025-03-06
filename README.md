@@ -29,6 +29,37 @@ Modo en que se realizó la plataforma Ecommerce: la maquetación fue realizada p
 
 La plataforma "Sistema de ventas Ecommerce" fue realizado bajo las especificaciones planteadas cuya maquetación cumpliera con lo solicitado, que era crear un proyecto front de libre albedrio que consumiera datos de una API. en este caso yo escojí angular 15 para el frontend y poder consumir un crud de datos realizado en ASP.NET-CORE, donde expongo 4 servicios API-REST-FULL "GET", "POST","PUT" y "DELETE". La aplicación está realizada bajo una arquitectura de N-capas, empleando un patron repositorio, empleando DTOS, validaciones de datos, autommaper, interfaces e inyección de dependencias, con buenas prácticas y principios solid.
 
+Validador de formilario dinámico del lado cliente y validación de campos
+
+Como se aprecia en la imágen los campos validan su obligatoriedad
+
+![image](https://github.com/user-attachments/assets/528c2e6d-4ee1-4684-b9a8-13ac1f68319b)
+
+En este caso también valida que el formato del correo electrónico sea el formato correcto como se ve en la imágen
+![image](https://github.com/user-attachments/assets/cdccb09f-a332-40d9-aeb9-b97d2a4f5e7c)
+
+En este caso ya se ingresa el email y contraseña normalmente para poder ingresar
+
+![image](https://github.com/user-attachments/assets/1b8be49e-93e9-4225-8fa6-2b58f0be9219)
+
+Del mismo modo las validaciones de los campos ocurren en el módulo Agregar Usuarios, no se activa el botón guardar hasta que no se llenen los campos por completo
+
+![image](https://github.com/user-attachments/assets/23929bcf-3db0-47cd-ac8b-50fd0b93e404)
+
+De igual forma en el módulo "Agregar Producto"
+
+![image](https://github.com/user-attachments/assets/a923dcee-7306-4954-a40e-ec9931cf82ee)
+
+De igual manera con el módulo "Ventas"
+
+![image](https://github.com/user-attachments/assets/2b7f0de5-ee15-4e99-9756-5c9e3f8d1dea)
+
+De igual manera con el módulo de ventas
+
+![image](https://github.com/user-attachments/assets/e484d03a-c03e-4c91-affe-114a74526fa8)
+
+
+
 
 
 
