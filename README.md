@@ -77,6 +77,76 @@ Las validaciones de los campos y los mensajes de alerta del lado cliente fueron 
 
 
 
+Tarea: Asignación No. 4 Convertir el frontend de la Plataforma en una SPA  con AngularJS
+
+
+Tal como lo pide uno de ,os requerimientos, se gestiona productos, con nombre, categoría, valor, stock, estado etc... como se aprecia en la imagen y se pone en funcionamiento como se verá a continuación
+
+![image](https://github.com/user-attachments/assets/f5beb04d-f6ce-4c2a-86da-2c4c18e3f62b)
+
+Se ingresa un teclado inalámbrico con valor de 1500 como ejemplo y se da guardar
+![image](https://github.com/user-attachments/assets/b0c1f3da-9821-491d-ada8-1b632df116ee)
+
+
+Y vemos que el mensaje de alerta dice "registrado con éxito"
+
+![image](https://github.com/user-attachments/assets/90fc57f6-5eb0-4ff7-bfab-64f6a46e99f3)
+
+Y vemos que queda registrado el teclado inalámbrico como se aprecia en la imagen subrayada en color rojo
+
+![image](https://github.com/user-attachments/assets/3c2ed97b-1262-4c9a-ada1-2fccb8c225ec)
+
+La manera de como se implementaron fue por medio de API RESTful que se mostrarán a continuación como fue solicitado en los requerimientos
+
+Estas API RESTful fueron realizadas en .Net-Core para luego ser consumidas por Angular 14, a continuación se muestran las API RESTful en .Net-Core
+
+![image](https://github.com/user-attachments/assets/209065f2-4a28-4959-a67a-8fc96fa9de55)
+
+![image](https://github.com/user-attachments/assets/749b3a92-754d-4651-a0e8-1bc7d93e1b3e)
+
+![image](https://github.com/user-attachments/assets/6743266c-e8ac-44b9-a32a-a2d1e9a211b5)
+
+A continuación se muestra parte del código de las Apis en .Net-Core, en este caso las API RESTful de Usuarios para Iniciar Sesion, Crear, Editar, y eliminar usuarios
+
+![image](https://github.com/user-attachments/assets/66ac3493-2e81-436d-a7e2-c9b01bd9a0ea)
+
+![image](https://github.com/user-attachments/assets/1b86164c-deb6-404e-aa85-1edbf5d04f40)
+
+![image](https://github.com/user-attachments/assets/16451e6c-63ae-4a55-921c-c51c453ee01f)
+
+![image](https://github.com/user-attachments/assets/b5d5f37f-f795-4890-aca9-d96ec2acf46e)
+
+![image](https://github.com/user-attachments/assets/b113220e-687b-4bb0-80bf-3d9bdf1cbff7)
+
+![image](https://github.com/user-attachments/assets/6c80f091-61c5-4d66-bc8a-d00dea664494)
+
+A continuación se muestra como se consumen las API en angular
+
+Este endPoint es el que se consume
+![image](https://github.com/user-attachments/assets/3c9d8055-d09e-484c-867c-197c68e13ecc)
+
+![image](https://github.com/user-attachments/assets/75605e9c-73bd-4224-b1ef-a1fcf38be905)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
