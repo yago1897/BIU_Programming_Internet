@@ -80,11 +80,26 @@ Las validaciones de los campos y los mensajes de alerta del lado cliente fueron 
 Tarea: Asignación No. 4 Convertir el frontend de la Plataforma en una SPA  con AngularJS
 
 
-Tal como lo pide uno de ,os requerimientos, se gestiona productos, con nombre, categoría, valor, stock, estado etc... como se aprecia en la imagen y se pone en funcionamiento como se verá a continuación
+Tal y como se pide en el primer requerimiento, la aplicación Ecommerce se convierte en una SPA(Single Page Application) en Angular 14 y permite la navegación de rutas sin recargar la página, sino todo contendido en la SPA como se muestra en las siguientes imágenes
+
+![image](https://github.com/user-attachments/assets/c02389d7-a308-47ef-82e6-3a6fc38bb4c6)
+
+![image](https://github.com/user-attachments/assets/bdc10554-9317-47d6-8eca-ec1382e3096d)
+
+![image](https://github.com/user-attachments/assets/5aba5d63-1827-4141-be58-030b7ce94a98)
+
+![image](https://github.com/user-attachments/assets/aa1e51fa-4509-481d-a034-4dad6433a2be)
+
+![image](https://github.com/user-attachments/assets/4546dcac-550e-4dae-ac87-ecc02055b401)
+
+
+
+Tal como lo pide en otro de los requerimientos, se gestiona productos, con nombre, categoría, valor, stock, estado etc... como se aprecia en la imagen y se pone en funcionamiento como se verá a continuación
 
 ![image](https://github.com/user-attachments/assets/f5beb04d-f6ce-4c2a-86da-2c4c18e3f62b)
 
 Se ingresa un teclado inalámbrico con valor de 1500 como ejemplo y se da guardar
+
 ![image](https://github.com/user-attachments/assets/b0c1f3da-9821-491d-ada8-1b632df116ee)
 
 
@@ -126,6 +141,34 @@ Este endPoint es el que se consume
 ![image](https://github.com/user-attachments/assets/3c9d8055-d09e-484c-867c-197c68e13ecc)
 
 ![image](https://github.com/user-attachments/assets/75605e9c-73bd-4224-b1ef-a1fcf38be905)
+
+En Angular 14 y urilizando el editor de código VS-Code vemos que se consume el Api de "Iniciar Sesión"
+
+![image](https://github.com/user-attachments/assets/627635bb-da13-4885-b16a-8bf2b32c9a54)
+
+Y se observa que se consumen las demás Api que son: Guardar, Editar y eliminar, y vemos que la aplicación en angular se ejecuta en el puerto 4200 de localhost
+
+![image](https://github.com/user-attachments/assets/ac46493a-cde8-4ca0-ace2-44a268e5b2ad)
+
+Finalmente para ejecutar la aplicación, lo primero es que se debe ejecutar la aplicación en .Net-Core como se ve a continuación, ya que si no se ejecuta no consumura las APIS RESTfull en Angular 14
+Se muestra a contunuación .Net-Core y se ejecuta presionando la tecla "F5" o presionando elboton "Continuar" ubicado en la parte superior, donde esta subrayado en color rojo
+
+![image](https://github.com/user-attachments/assets/032092e9-9493-4030-9511-559b56102aea)
+
+Luego estando en el editor de código VS-Code se ejecuta la aplicación escribiendo el siguiente comando "ng serve" como se ve a continuación
+
+![image](https://github.com/user-attachments/assets/48efcf60-ce37-42ab-8088-ec3d3504e589)
+
+
+Y listo, vemos que la aplicación se ejecuta en el puerto 4200 como se ve a continuación
+
+![image](https://github.com/user-attachments/assets/3c5fb3f0-7eb5-43cd-b711-82895747e633)
+
+
+
+
+
+
 
 
 
