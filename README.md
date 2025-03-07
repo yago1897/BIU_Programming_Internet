@@ -77,6 +77,10 @@ Las validaciones de los campos y los mensajes de alerta del lado cliente fueron 
 
 
 
+
+
+
+
 Tarea: Asignación No. 4 Convertir el frontend de la Plataforma en una SPA  con AngularJS
 
 
