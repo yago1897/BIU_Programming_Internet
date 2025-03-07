@@ -137,8 +137,10 @@ A continuación se muestra parte del código de las Apis en .Net-Core, en este c
 
 A continuación se muestra como se consumen las API en angular
 
-Este endPoint es el que se consume
+Este endPoint es el que se consume, para lograr la comunicación entre el endPoint que se expone y Angular que lo consume es importante habilitar CORS
 ![image](https://github.com/user-attachments/assets/3c9d8055-d09e-484c-867c-197c68e13ecc)
+
+
 
 ![image](https://github.com/user-attachments/assets/75605e9c-73bd-4224-b1ef-a1fcf38be905)
 
