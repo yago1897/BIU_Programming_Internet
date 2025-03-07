@@ -55,7 +55,7 @@ De igual manera con el módulo "Ventas"
 
 ![image](https://github.com/user-attachments/assets/2b7f0de5-ee15-4e99-9756-5c9e3f8d1dea)
 
-De igual manera con el módulo de ventas
+De igual manera con el módulo de "Reportes"
 
 ![image](https://github.com/user-attachments/assets/e484d03a-c03e-4c91-affe-114a74526fa8)
 
@@ -63,7 +63,7 @@ Al realizar un ingreso de un usuario con rol de empleado, se llenan los datos co
 
 ![image](https://github.com/user-attachments/assets/71e11423-c130-4ff1-a72e-836346005860)
 
-Y se ovserva que se ingresa correctamente y mostrando un mensaje de alerta exitoso como se aprecia en la imágen
+Y se ovserva que se ingresa correctamente en la grilla y mostrando un mensaje de alerta exitoso como se aprecia en la imágen
 
 ![image](https://github.com/user-attachments/assets/f6485d89-f8fe-4a06-b374-4511d0d7d1ef)
 
