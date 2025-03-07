@@ -29,17 +29,23 @@ Modo en que se realizó la plataforma Ecommerce: la maquetación fue realizada p
 
 La plataforma "Sistema de ventas Ecommerce" fue realizado bajo las especificaciones planteadas cuya maquetación cumpliera con lo solicitado, que era crear un proyecto front de libre albedrio que consumiera datos de una API. en este caso yo escojí angular 15 para el frontend y poder consumir un crud de datos realizado en ASP.NET-CORE, donde expongo 4 servicios API-REST-FULL "GET", "POST","PUT" y "DELETE". La aplicación está realizada bajo una arquitectura de N-capas, empleando un patron repositorio, empleando DTOS, validaciones de datos, autommaper, interfaces e inyección de dependencias, con buenas prácticas y principios solid.
 
+
 Tarea: Asignación No. 3 Desarrollo de un validador de formularios dinámico del lado del cliente, caso Registro de nuevo Usuario del Sistema
 
-Como se aprecia en la imágen los campos validan su obligatoriedad
+Como se aprecia en la imagen los campos validan su obligatoriedad
 
 ![image](https://github.com/user-attachments/assets/528c2e6d-4ee1-4684-b9a8-13ac1f68319b)
 
-En este caso también valida que el formato del correo electrónico sea el formato correcto como se ve en la imágen
+En este caso también valida que el formato del correo electrónico sea el formato correcto como se ve en la imagen
 
 ![image](https://github.com/user-attachments/assets/cdccb09f-a332-40d9-aeb9-b97d2a4f5e7c)
 
-En este caso ya se ingresa el email y contraseña normalmente para poder ingresar
+Se ingresan las credenciales equivocadas y arroja el mensaje de alerta notificando que no se encontraron coincidencias
+
+![image](https://github.com/user-attachments/assets/3e688369-8aa7-4301-99c7-3da646b8b942)
+
+
+En este caso ya se ingresa el email y contraseña correctos para poder ingresar
 
 ![image](https://github.com/user-attachments/assets/1b8be49e-93e9-4225-8fa6-2b58f0be9219)
 
@@ -63,9 +69,11 @@ Al realizar un ingreso de un usuario con rol de empleado, se llenan los datos co
 
 ![image](https://github.com/user-attachments/assets/71e11423-c130-4ff1-a72e-836346005860)
 
-Y se ovserva que se ingresa correctamente en la grilla y mostrando un mensaje de alerta exitoso como se aprecia en la imágen
+Y se observa que se ingresa correctamente en la grilla y mostrando un mensaje de alerta exitoso como se aprecia en la imágen
 
 ![image](https://github.com/user-attachments/assets/f6485d89-f8fe-4a06-b374-4511d0d7d1ef)
+
+Las validaciones de los campos y los mensajes de alerta del lado cliente fueron implementados utilizando Angular 14. Se usaron Reactive Forms para gestionar la validación de los inputs, incluyendo la verificación del formato del email con Validators.email. Además, se empleó Angular Material para mostrar mensajes de error y mejorar la experiencia del usuario.
 
 
 
