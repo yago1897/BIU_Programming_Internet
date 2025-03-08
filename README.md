@@ -241,7 +241,26 @@ El producto se edita por un computador portátil como se ve en la imagen
 Y vemos que el producto fue editado exitosamente como lo notifica el mensaje de alerta, de igual manera en base de datos
 
 ![image](https://github.com/user-attachments/assets/893e51d9-b4f6-49cd-b00d-788e86af35cd)
-![image](https://github.com/user-attachments/assets/fff7b8f8-ae13-41e4-adb3-83914a73ff8b)
+![image](https://github.com/user-attachments/assets/a8660762-427b-4eaf-8fcc-348c27482b96)
+
+Para eliminar un producto se realiza de la siguiente manera, en este caso eliminaremos el producto que agregamos y modificamos
+
+Se selecciona el ícono de la "basura" y se abre una ventana modal y presionamos el botón eliminar
+
+![image](https://github.com/user-attachments/assets/ab84dd8c-e46b-4479-ba8a-4b72cdc086f6)
+
+Y se observa que el producto fue eliminado exitosamente como lo notifica el mensaje de alerta t en base de datos no aparece
+
+![image](https://github.com/user-attachments/assets/7624f6fd-bb0b-4617-b241-a56d5c6f963c)
+![image](https://github.com/user-attachments/assets/68030d86-8523-4836-b5b9-cac666c173a4)
+
+
+
+
+
+
+
+
 
 
 
