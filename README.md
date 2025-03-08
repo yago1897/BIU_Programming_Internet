@@ -196,7 +196,7 @@ Acá se muestran las ejecuciones de algunas de las tablas ya creadas anteriormen
 
  
 
-Como se solicito en uno de los requerimientos, continuación se muestra parte del código de las Apis en .Net-Core, en este caso las API RESTful de productos para Crear, Editar, y eliminar productos
+Como se solicito en uno de los requerimientos, continuación se muestra parte del código de las Apis en .Net-Core, en este caso las API RESTful de productos para Crear, Editar, y eliminar productos que posteriormente serán consumidos desde la aplicación de Angular
 
 ![image](https://github.com/user-attachments/assets/510384b3-ce4d-4629-b205-9ca45437d85b)
 
