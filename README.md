@@ -173,6 +173,102 @@ Y listo, vemos que la aplicación se ejecuta en el puerto 4200 como se ve a cont
 
 
 
+Tarea: Asignación No. 5 Desarrollo del backend de la Plataforma
+
+Uno de los requerimientos era configurar base de datos SQL, en este caso elegí SQL Server Versión 2019, y se puede apreciar el modelo Entidad-Relación de la aplicación Ecommerce
+
+![image](https://github.com/user-attachments/assets/1c67c5b8-7d6b-44b4-b53b-6d8c9697908f)
+
+Acá se ovserva el script de la creación de la base de datos con las tablas que contendra la aplicación
+
+![image](https://github.com/user-attachments/assets/999a3294-8f6c-4f98-878e-d608f637ee8e)
+
+![image](https://github.com/user-attachments/assets/89cdbb6c-03ba-4c66-8572-a7d719c2056d)
+
+![image](https://github.com/user-attachments/assets/05d27933-787f-453c-9d85-01484d5544a3)
+
+Acá se muestran las ejecuciones de algunas de las tablas ya creadas anteriormente y con datos que fueron mostrados en la aplicación de las actividades anteriores
+
+![image](https://github.com/user-attachments/assets/75f54f98-0314-494b-8f50-e43d134319d9)
+
+![image](https://github.com/user-attachments/assets/6e58525d-e9e2-4f47-965c-6b4705cf86de)
+
+
+ 
+
+Como se solicito en uno de los requerimientos, continuación se muestra parte del código de las Apis en .Net-Core, en este caso las API RESTful de productos para Crear, Editar, y eliminar productos
+
+![image](https://github.com/user-attachments/assets/510384b3-ce4d-4629-b205-9ca45437d85b)
+
+Para listar y obtener los productos
+
+![image](https://github.com/user-attachments/assets/56089bdc-61ba-4d7a-8893-2a58bfa59353)
+
+Para crear o guardar productos
+
+![image](https://github.com/user-attachments/assets/7f99f44f-7879-43ba-a2f2-76069831ab92)
+
+Para editar productos
+
+![image](https://github.com/user-attachments/assets/c34317a8-ecbf-4306-ac77-8ed7a0b8ffef)
+
+Para eliminar productos
+
+![image](https://github.com/user-attachments/assets/0c6422e4-e5f4-4c0a-b880-a55c9bdc85db)
+
+
+
+
+Y para probar las funcionalidades CRUD (Crear, Leer, Actualizar, Eliminar) para los productos, se realiza de la siguiente manera
+
+Se presiona en el botón "Nuevo producto", lo cual abre una ventana modal para ingresar un producto y se le da al botón "Guardar", como se aprecia en la imagen
+
+![image](https://github.com/user-attachments/assets/63f27729-2628-4ce6-82b8-9d38f8e99300)
+
+Y se observa que quedo registrado el prpoducto exitosamente tanto en la aplicación como en base de datos, como se aprecia en la imagen
+
+![image](https://github.com/user-attachments/assets/b88bb1f2-c67b-4927-9a22-b08c3719d53d)
+![image](https://github.com/user-attachments/assets/0b29ff08-adff-46e0-a27d-03b9053a5238)
+
+Para editar un producto, en este caso el que acabamos de crear, se presiona la imagen del lápiz y se abre la ventana modal con el producto ya seleccinado para su edición
+
+![image](https://github.com/user-attachments/assets/f29ebde3-45e0-481d-be86-65f5201342be)
+
+
+El producto se edita por un computador portátil como se ve en la imagen
+![image](https://github.com/user-attachments/assets/d40a9bcb-f628-4d99-9602-b3fadce7a083)
+
+Y vemos que el producto fue editado exitosamente como lo notifica el mensaje de alerta, de igual manera en base de datos
+
+![image](https://github.com/user-attachments/assets/893e51d9-b4f6-49cd-b00d-788e86af35cd)
+![image](https://github.com/user-attachments/assets/fff7b8f8-ae13-41e4-adb3-83914a73ff8b)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
